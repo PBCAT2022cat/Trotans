@@ -1,0 +1,10 @@
+A simple trojan horse needs to change the value of the IP variable in the file <run.py> to the attacker's IP address.
+When using the <sever.py> listener,
+ you need to enter the attacker's IP address.
+
+
+一个简单的木马，
+需要更改<run.py>文件中IP变量的值为攻击者的IP地址。
+
+使用<sever.py>侦听器，
+您需要输入攻击者的IP地址
