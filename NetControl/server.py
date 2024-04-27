@@ -1,5 +1,7 @@
 import socket,threading,sys
 
+print(*cmds)
+
 def upload():
     try:
         path = input('my path:')
@@ -58,7 +60,7 @@ def sendd():
 
 hello = True
 print(socket.gethostname())
-host = input('ip:')
+host = '0.0.0.0'
 post = 12345
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)#定义套接字（类型）
 s.bind((host,post))#监听

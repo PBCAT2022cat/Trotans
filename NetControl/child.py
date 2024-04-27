@@ -47,7 +47,7 @@ def download():
 while run:
     try:
         info = s.recv(1024).decode().rstrip()
-        print(info)
+        print('> ',info)
         if info=='useModel------':
             info = s.recv(1024).decode().rstrip()
             if info == 'exit':
