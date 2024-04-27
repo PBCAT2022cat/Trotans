@@ -1,5 +1,5 @@
 import socket,threading,sys
-
+cmds=['upload','exit','use py']
 print(*cmds)
 
 def upload():
@@ -30,7 +30,7 @@ def usePy():
         print(rr)
 
 
-cmds=['upload','exit','use py']
+
 def sendd():
     global hello,cmds
     try:
